@@ -125,6 +125,14 @@ class MainActivity : AppCompatActivity() {
             item.textNome.text = it.nome
             item.checkComprado.isChecked = it.comprado
 
+            item.checkComprado.setOnCheckedChangeListener{ check, isCheck ->
+                database.child("produtos").child(it.id).child("comprado").setValue(isCheck)
+            }
+
+            item.imageRemover.setOnClickListener{ view ->
+                database.child("produtos").child(it.id).removeValue()
+            }
+
             binding.container.addView(item.root)
         }
     }
