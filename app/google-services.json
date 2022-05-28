@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "280753042471",
+    "project_id": "listacompras2-76572",
+    "storage_bucket": "listacompras2-76572.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280753042471:android:0e62e6d33ddf55836e0a02",
+        "android_client_info": {
+          "package_name": "com.example.listacompras"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280753042471-qjral4hfg4tre7mop20nltje9v4ekmpk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0Grc8HzceFln-JeTAAJlbTNtpoHMRNJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280753042471-qjral4hfg4tre7mop20nltje9v4ekmpk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
